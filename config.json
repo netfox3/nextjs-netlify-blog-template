@@ -1,19 +1,19 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "base_url": "https://ashfolios.netlify.app",
+  "site_title": "Ashfolios",
+  "site_description": "your secret behind 10x growth rate",
   "site_keywords": [
-    {
-      "keyword": "Next.js"
-    },
-    {
-      "keyword": "Netlify"
-    },
-    {
-      "keyword": "React"
-    }
+    "ash",
+    "copywriter",
+    "ux writer",
+    "content developer",
+    "growth",
+    "growth hacker",
+    "sales copywriter",
+    "startup",
+    "portfolio"
   ],
   "posts_per_page": 5,
-  "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "twitter_account": "AshAims",
+  "github_account": "netfox3"
 }
