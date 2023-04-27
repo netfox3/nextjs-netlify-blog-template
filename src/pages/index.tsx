@@ -20,7 +20,7 @@ export default function Index() {
             Have a look at my <Link href="/posts"><a>portfolio,</a></Link>
             <Link href="/resume"><a> resume</a></Link>, and <Link href="/reviews"><a> client testimonials</a></Link>
             to learn more about me and my work ex.</h2>
-          <h2><Link href="/contact"><a>Contact me >></a></Link></h2>
+          <h2><Link href="/contact"><a>Contact me &gt;&gt;</a></Link></h2>
         </div>
       </div>
       <style jsx>{`
