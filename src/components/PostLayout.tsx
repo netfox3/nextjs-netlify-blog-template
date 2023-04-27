@@ -108,7 +108,7 @@ export default function PostLayout({
             }
             h1 {
               margin: 0 0 0.5rem;
-              font-size: 2.25rem;
+              font-size: 1.25rem;
             }
             .tag-list {
               list-style: none;
@@ -141,7 +141,7 @@ export default function PostLayout({
             .token.doctype,
             .token.cdata,
             .token.plain-text {
-              color: #6a737d;
+              color: #41484b;
             }
 
             .token.atrule,
@@ -167,7 +167,7 @@ export default function PostLayout({
             .token.char,
             .token.builtin,
             .token.inserted {
-              color: #032f62;
+              color: #3ded97;
             }
 
             .token.function,
@@ -182,7 +182,7 @@ export default function PostLayout({
             .language-jsx .token.tag .token.punctuation,
             .language-jsx .token.tag .token.script,
             .language-jsx .token.plain-text {
-              color: #24292e;
+              color: #47484b;
             }
 
             .language-jsx .token.tag .token.attr-name {
@@ -199,7 +199,7 @@ export default function PostLayout({
             }
 
             .language-jsx .token.attr-value {
-              color: #032f62;
+              color: #3ded97;
             }
 
             .language-jsx span[class="comment"] {
@@ -208,7 +208,7 @@ export default function PostLayout({
 
             /* HTML */
             .language-html .token.tag .token.punctuation {
-              color: #24292e;
+              color: #47484b;
             }
 
             .language-html .token.tag .token.attr-name {
