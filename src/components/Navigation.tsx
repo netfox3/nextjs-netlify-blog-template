@@ -64,7 +64,7 @@ export default function Navigation() {
               margin-bottom: 0;
             }
             .active {
-              color: #222;
+              color: #48494B;
             }
 
             @media (min-width: 769px) {
