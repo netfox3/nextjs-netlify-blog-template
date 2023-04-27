@@ -37,7 +37,7 @@ export default function Index() {
           font-size: 1.1rem;
           font-weight: 200;
           line-height: 1.25;
-          max-width: 70vw;
+          max-width: 750px;
         }
         a {
           color: #3ded97;
