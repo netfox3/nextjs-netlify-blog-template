@@ -16,7 +16,9 @@ export default function Index() {
             Hi, it's Ash<span className="fancy">.</span>
           </h1>
           <h2>I'm a copywriter, ux writer, content designer, and growth hacker for startups. 
-            Have a look at my <a href="/post">portfolio</a>, resume, or reviews to learn more about me and my work ex.</h2>
+            Have a look at my <a href="/posts">portfolio</a>,
+            <a href="/posts/star-health">resume</a>,
+                    and reviews to learn more about me and my work ex.</h2>
         </div>
       </div>
       <style jsx>{`
@@ -36,6 +38,7 @@ export default function Index() {
           font-size: 1.1rem;
           font-weight: 200;
           line-height: 1.25;
+          max-width: 70vw;
         }
         .fancy {
           color: #15847d;
