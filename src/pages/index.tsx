@@ -15,9 +15,7 @@ export default function Index() {
           <h1>
             Hi, We're Next.js & Netlify<span className="fancy">.</span>
           </h1>
-//          <span className="handle">@nextjs-netlify-blog</span>
           <h2>A blog template with Next.js and Netlify.</h2>
-          <SocialList />
         </div>
       </div>
       <style jsx>{`
@@ -30,8 +28,8 @@ export default function Index() {
         }
         h1 {
           font-size: 1.5rem;
-          margin: 0;
-          font-weight: 300;
+          margin: 1rem 0 0 0;
+          font-weight: 500;
         }
         h2 {
           font-size: 1.1rem;
@@ -50,7 +48,7 @@ export default function Index() {
 
         @media (min-width: 769px) {
           h1 {
-            font-size: 2rem;
+            font-size: 3rem;
           }
           h2 {
             font-size: 1.25rem;
