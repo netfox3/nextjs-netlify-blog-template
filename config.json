@@ -4,31 +4,31 @@
   "site_description": "your secret behind 10x growth rate",
   "site_keywords": [
     {
-      'ash'
+      "keyword": "ash"
     },
     {
-      copywriter
+      "keyword": "copywriter"
     },
     {
-      ux writer
+      "keyword": "ux writer"
     },
     {
-      content developer
+      "keyword": "content developer"
     },
     {
-      growth
+      "keyword": "growth"
     },
     {
-      growth hacker
+      "keyword": "growth hacker"
     },
     {
-      sales-copywriter
+      "keyword": "sales-copywriter"
     },
     {
-      startup
+      "keyword": "startup"
     },
     {
-      portfolio
+      "keyword": "portfolio"
     }
   ],
   "posts_per_page": 9,
