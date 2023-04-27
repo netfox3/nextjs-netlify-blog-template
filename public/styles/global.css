@@ -5,7 +5,7 @@ html,
 body {
   font-family: "Ubuntu", sans-serif;
   background-color: #000;
-  color: #222;
+  color: #fff;
   font-weight: 200;
   height: 100%;
 }
@@ -22,7 +22,7 @@ a {
 
 a:active,
 a:hover {
-  color: #000;
+  color: #fff;
 }
 
 .youtube-container {
