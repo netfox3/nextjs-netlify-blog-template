@@ -17,8 +17,7 @@ export default function Index() {
           </h1>
           <h2>I'm a copywriter, ux writer, content designer, and growth hacker for startups. 
             Have a look at my <a href="/posts">portfolio</a>,
-            <a href="/posts/star-health">resume</a>,
-                    and reviews to learn more about me and my work ex.</h2>
+            <a href="/posts/star-health"> resume</a>, and reviews to learn more about me and my work ex.</h2>
         </div>
       </div>
       <style jsx>{`
@@ -39,6 +38,9 @@ export default function Index() {
           font-weight: 200;
           line-height: 1.25;
           max-width: 70vw;
+        }
+        a {
+          color: #3ded97;
         }
         .fancy {
           color: #15847d;
