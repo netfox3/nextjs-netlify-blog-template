@@ -3,17 +3,35 @@
   "site_title": "Ashfolios",
   "site_description": "your secret behind 10x growth rate",
   "site_keywords": [
-    "ash",
-    "copywriter",
-    "ux-writer",
-    "content-developer",
-    "growth",
-    "growth-hacker",
-    "sales-copywriter",
-    "startup",
-    "portfolio"
+    {
+      ash
+    },
+    {
+      copywriter
+    },
+    {
+      ux writer
+    },
+    {
+      content developer
+    },
+    {
+      growth
+    },
+    {
+      growth hacker
+    },
+    {
+      sales-copywriter
+    },
+    {
+      startup
+    },
+    {
+      portfolio
+    }
   ],
-  "posts_per_page": 5,
+  "posts_per_page": 9,
   "twitter_account": "AshAims",
   "github_account": "netfox3"
 }
