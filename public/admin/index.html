@@ -23,6 +23,7 @@
             { className: "content" },
             h("h1", {}, entry.getIn(["data", "title"])),
             h("time", {}, entry.getIn(["data", "date"])),
+            h("hero", {}, entry.getIn(["data", "image"])),
             h("div", {}, this.props.widgetFor("body"))
           );
         },
