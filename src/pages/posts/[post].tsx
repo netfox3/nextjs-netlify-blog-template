@@ -17,6 +17,7 @@ export type Props = {
   title: string;
   dateString: string;
   slug: string;
+  hero: string;
   tags: string[];
   author: string;
   description?: string;
@@ -34,6 +35,7 @@ export default function Post({
   title,
   dateString,
   slug,
+  hero,
   tags,
   author,
   description = "",
@@ -45,6 +47,7 @@ export default function Post({
       title={title}
       date={parseISO(dateString)}
       slug={slug}
+      hero={hero}
       tags={tags}
       author={author}
       description={description}
@@ -74,6 +77,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       title: data.title,
       dateString: data.date,
       slug: data.slug,
+      hero: data.hero,
       description: "",
       tags: data.tags,
       author: data.author,
