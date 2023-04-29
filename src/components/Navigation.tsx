@@ -26,6 +26,8 @@ export default function Navigation() {
                 portfolio
               </a>
             </Link>
+          </li>
+          <li>
             <Link href="/posts">
               <a
                 className={
