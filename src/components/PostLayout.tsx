@@ -111,7 +111,7 @@ export default function PostLayout({
             }
             h1 {
               margin: 0 0 1.5rem;
-              font-size: 1.25rem;
+              font-size: 1.5rem;
             }
             img {
               max-width: 100%;
