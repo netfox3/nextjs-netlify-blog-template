@@ -115,7 +115,7 @@ export default function PostLayout({
             }
             img {
               max-width: 100%;
-              margin: 1.5rem;
+              margin: 0 0 1.5rem;
             }
             .tag-list {
               list-style: none;
