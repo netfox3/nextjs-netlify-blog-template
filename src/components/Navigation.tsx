@@ -13,10 +13,19 @@ export default function Navigation() {
         <ul>
           <li>
             <Link href="/">
-              <a className={router.pathname === "/" ? "active" : null}>about</a>
+              <a className={router.pathname === "/" ? "active" : null}>meet Ash</a>
             </Link>
           </li>
           <li>
+            <Link href="/posts/tags/markdown">
+              <a
+                className={
+                  router.pathname.startsWith("/posts/tags/markdown") ? "active" : null
+                }
+              >
+                portfolio
+              </a>
+            </Link>
             <Link href="/posts">
               <a
                 className={
@@ -57,14 +66,14 @@ export default function Navigation() {
             }
             li {
               margin-bottom: 1.75rem;
-              font-size: 2rem;
+              font-size: 1rem;
               padding: 0 1.5rem 0 0;
             }
             li:last-child {
               margin-bottom: 0;
             }
             .active {
-              color: #48494B;
+              color: #3ded97;
             }
 
             @media (min-width: 769px) {
