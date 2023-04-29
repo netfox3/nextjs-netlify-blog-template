@@ -65,7 +65,7 @@ export default function PostLayout({
         <article>
           <header>
             <h1>{title}</h1>
-            <img src={../{hero}}></img>
+            <img src=",,/{hero}"></img>
             <div className={"metadata"}>
               <div>
                 <Date date={date} />
