@@ -65,7 +65,6 @@ export default function PostLayout({
         <article>
           <header>
             <h1>{title}</h1>
-            <img src={hero}></img>
             <div className={"metadata"}>
               <div>
                 <Date date={date} />
@@ -74,6 +73,7 @@ export default function PostLayout({
                 <Author author={getAuthor(author)} />
               </div>
             </div>
+            <img src={hero}></img>
           </header>
           <div className={styles.content}>{children}</div>
           <ul className={"tag-list"}>
