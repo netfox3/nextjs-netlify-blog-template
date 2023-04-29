@@ -10,6 +10,7 @@ export default function PostItem({ post }: Props) {
   return (
     <Link href={"/posts/" + post.slug}>
       <a>
+        <img src="{post.hero}">
         <h2>{post.title}</h2>
         <style jsx>
           {`
@@ -21,6 +22,9 @@ export default function PostItem({ post }: Props) {
               margin: 0;
               font-weight: 500;
               font-size:1.1rem;
+            }
+            img {
+              max-width: 100%;
             }
           `}
         </style>
