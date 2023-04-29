@@ -17,6 +17,7 @@ type Props = {
   title: string;
   date: Date;
   slug: string;
+  hero: string;
   tags: string[];
   author: string;
   description?: string;
@@ -26,6 +27,7 @@ export default function PostLayout({
   title,
   date,
   slug,
+  hero,
   author,
   tags,
   description = "",
@@ -63,6 +65,7 @@ export default function PostLayout({
         <article>
           <header>
             <h1>{title}</h1>
+            <img src={hero}</img>
             <div className={"metadata"}>
               <div>
                 <Date date={date} />
@@ -107,8 +110,11 @@ export default function PostLayout({
               flex: 1 0 auto;
             }
             h1 {
-              margin: 0 0 0.5rem;
+              margin: 0 0 1.5rem;
               font-size: 1.25rem;
+            }
+            img {
+              max-width: 100%;
             }
             .tag-list {
               list-style: none;
