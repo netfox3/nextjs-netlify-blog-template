@@ -20,7 +20,7 @@ export default function Navigation() {
             <Link href="/posts/tags/markdown">
               <a
                 className={
-                  router.pathname.startsWith("/posts/tags/markdown") ? "active" : null
+                  router.pathname.startsWith("/markdown") ? "active" : null
                 }
               >
                 portfolio
