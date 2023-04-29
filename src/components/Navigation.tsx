@@ -68,7 +68,7 @@ export default function Navigation() {
             }
             li {
               margin-bottom: 1.75rem;
-              font-size: 1rem;
+              font-size: 1.5rem;
               padding: 0 1.5rem 0 0;
             }
             li:last-child {
@@ -85,7 +85,7 @@ export default function Navigation() {
               }
               ul {
                 opacity: 1;
-                width: 7rem;
+                width: 10rem;
                 top: auto;
                 display: block;
                 transform: translateY(0);
