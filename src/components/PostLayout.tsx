@@ -119,7 +119,7 @@ export default function PostLayout({
             }
             .tag-list {
               list-style: none;
-              text-align: right;
+              text-align: left;
               margin: 1.75rem 0 0 0;
               padding: 0;
             }
