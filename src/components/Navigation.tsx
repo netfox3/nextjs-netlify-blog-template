@@ -80,12 +80,12 @@ export default function Navigation() {
 
             @media (min-width: 769px) {
               .container {
-                width: 7rem;
+                width: 14rem;
                 display: block;
               }
               ul {
                 opacity: 1;
-                width: 10rem;
+                width: 14rem;
                 top: auto;
                 display: block;
                 transform: translateY(0);
