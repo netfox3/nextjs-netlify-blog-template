@@ -32,7 +32,6 @@ export default function PostList({ posts, tags, pagination }: Props) {
             as: (page) => (page === 1 ? null : "/posts/page/" + page),
           }}
         />
-        <span> </span>
       </div>
       <ul className={"categories"}>
         {tags.map((it, i) => (
@@ -55,9 +54,6 @@ export default function PostList({ posts, tags, pagination }: Props) {
         }
         li {
           list-style: none;
-        }
-        span {
-        margin-top: 3rem;
         }
         .posts {
           display: flex;
