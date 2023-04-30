@@ -16,10 +16,10 @@ export default function Index() {
           <h1>
             Hi, it's Ash<span className="fancy">.</span>
           </h1>
-          <h2>I'm a copywriter, ux writer, content designer, and growth hacker for startups. 
-            Have a look at my <Link href="/posts"><a>portfolio,</a></Link>
-            <Link href="/resume"><a> resume</a></Link>, and <Link href="/reviews"><a> client testimonials </a></Link>
-            to learn more about me and my work ex.</h2>
+          <h2>I'm a copywriter, ux writer, content designer, and growth hacker helping startups and entrepreneurs. 
+            Take a look at my <Link href="/posts"><a>favorite projects,</a></Link>
+            <Link href="/resume"><a> work ex</a></Link>, and <Link href="/reviews"><a> client testimonials </a></Link>
+            to learn more about me and my working style.</h2>
           <h2><Link href="/contact"><a>Contact me &gt;&gt;</a></Link></h2>
         </div>
       </div>
