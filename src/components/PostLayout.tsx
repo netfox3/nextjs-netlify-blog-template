@@ -86,7 +86,6 @@ export default function PostLayout({
         </article>
         <footer>
           <div className={"social-list"}>
-            <SocialList />
           </div>
           <Copyright />
         </footer>
