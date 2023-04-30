@@ -10,7 +10,7 @@ export default function PostItem({ post }: Props) {
   return (
     <Link href={"/posts/" + post.slug}>
       <a>
-        <img src=../{post.hero}></img>
+        <img src={"../" + post.hero}></img>
         <h2>{post.title}</h2>
         <style jsx>
           {`
