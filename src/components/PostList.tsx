@@ -32,8 +32,8 @@ export default function PostList({ posts, tags, pagination }: Props) {
             as: (page) => (page === 1 ? null : "/posts/page/" + page),
           }}
         />
+        <span>Ash | copywriting. extra bold.</span>
       </div>
-      <span>Ash | copywriting. extra bold.</span>
       <ul className={"categories"}>
         {tags.map((it, i) => (
           <li key={i}>
