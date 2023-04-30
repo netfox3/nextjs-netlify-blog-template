@@ -33,7 +33,7 @@ export default function PostList({ posts, tags, pagination }: Props) {
           }}
         />
       </div>
-      <span></span>
+      <span>Ash | copywriting. extra bold.</span>
       <ul className={"categories"}>
         {tags.map((it, i) => (
           <li key={i}>
@@ -58,6 +58,7 @@ export default function PostList({ posts, tags, pagination }: Props) {
         }
         span {
         margin-bottom: 3rem;
+        margin-top: 3rem;
         }
         .posts {
           display: flex;
