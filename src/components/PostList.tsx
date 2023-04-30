@@ -33,7 +33,7 @@ export default function PostList({ posts, tags, pagination }: Props) {
           }}
         />
       </div>
-      <div classname="space"></div>
+      <span><span>
       <ul className={"categories"}>
         {tags.map((it, i) => (
           <li key={i}>
@@ -56,8 +56,8 @@ export default function PostList({ posts, tags, pagination }: Props) {
         li {
           list-style: none;
         }
-        .space {
-        margin: 3rem;
+        span {
+        margin-bottom: 3rem;
         }
         .posts {
           display: flex;
