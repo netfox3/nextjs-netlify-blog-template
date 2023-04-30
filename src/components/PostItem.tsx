@@ -26,6 +26,12 @@ export default function PostItem({ post }: Props) {
             img {
               max-width: 100%;
             }
+            @media (min-width: 769px) {
+              img {
+                max-width: 40%;
+                max-height: 25%;
+                }
+              }
           `}
         </style>
       </a>
