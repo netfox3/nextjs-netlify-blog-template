@@ -24,7 +24,7 @@ export default function PostItem({ post }: Props) {
               font-size:1.1rem;
             }
             img {
-              max-width: 100%;
+              max-width: 80%;
             }
           `}
         </style>
