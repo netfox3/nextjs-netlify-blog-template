@@ -4,6 +4,7 @@ import PostItem from "./PostItem";
 import TagLink from "./TagLink";
 import Pagination from "./Pagination";
 import { TagContent } from "../lib/tags";
+import Copyright from "./Copyright";
 
 type Props = {
   posts: PostContent[];
@@ -32,6 +33,7 @@ export default function PostList({ posts, tags, pagination }: Props) {
             as: (page) => (page === 1 ? null : "/posts/page/" + page),
           }}
         />
+      <Copyright />
       </div>
       <ul className={"categories"}>
         {tags.map((it, i) => (
