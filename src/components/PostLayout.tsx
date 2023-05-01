@@ -121,6 +121,7 @@ export default function PostLayout({
               text-align: left;
               margin: 1.75rem 0 0 0;
               padding: 0;
+              line-height: 1.1rem;
             }
             .tag-list li {
               display: inline-block;
