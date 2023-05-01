@@ -11,7 +11,7 @@ tags:
     name: event
   - slug: ed-tech
     name: ed-tech
-   - slug: hr-tech
+  - slug: hr-tech
     name: hr-tech
   - slug: AI
     name: AI
@@ -33,7 +33,7 @@ tags:
     name: pr-copy
   - slug: social-copy
     name: social-copy
-   - slug: email-copy
+  - slug: email-copy
     name: email-copy
   - slug: ad-copy
     name: ad-copy
