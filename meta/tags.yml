@@ -1,13 +1,39 @@
 tags:
-  - slug: document
-    name: document
-  - slug: mock
-    name: mock
-  - slug: style
-    name: style
-  - slug: license
-    name: license
-  - slug: mdx
-    name: mdx
-  - slug: markdown
-    name: markdown
+  - slug: healthtech
+    name: healthtech
+  - slug: insurance
+    name: insurance
+  - slug: insuretech
+    name: insuretech
+  - slug: fintech
+    name: fintech
+  - slug: event
+    name: event
+  - slug: ed-tech
+    name: ed-tech
+   - slug: hr-tech
+    name: hr-tech
+  - slug: AI
+    name: AI
+  - slug: IT
+    name: IT
+  - slug: ad-tech
+    name: ad-tech
+  - slug: web-copy
+    name: web-copy
+  - slug: video-copy
+    name: video-copy
+  - slug: ux-copy
+    name: ux-copy
+  - slug: strategy
+    name: strategy
+  - slug: growth-copy
+    name: growth-copy
+  - slug: pr-copy
+    name: pr-copy
+  - slug: social-copy
+    name: social-copy
+   - slug: email-copy
+    name: email-copy
+  - slug: ad-copy
+    name: ad-copy
