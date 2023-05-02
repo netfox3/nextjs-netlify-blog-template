@@ -136,8 +136,8 @@
   }
   
   .content img {
-    width: 80%;
-    text-align: center;
+    max-width: 80%;
+    margin: auto;
   }
 
 }
