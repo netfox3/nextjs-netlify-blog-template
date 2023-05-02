@@ -94,11 +94,6 @@
   font-weight: 500;
 }
 
-.content table th,
-.content table td {
-  padding: 0.5em 1em;
-  border: 1px double #000;
-}
 
 .content ol,
 .content ul {
