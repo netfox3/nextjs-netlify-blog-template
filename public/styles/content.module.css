@@ -87,7 +87,7 @@
 }
 
 .content table thead {
-  background: #222021;
+  background: #000;
 }
 
 .content table th {
@@ -97,7 +97,7 @@
 .content table th,
 .content table td {
   padding: 0.5em 1em;
-  border: 1px double #eee;
+  border: 1px double #000;
 }
 
 .content ol,
