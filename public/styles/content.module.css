@@ -9,7 +9,7 @@
 }
 
 .content p {
-  line-height: 1.5rem;
+  line-height: 1.8rem;
   margin: 1.5rem 0 0 0;
 }
 
@@ -134,4 +134,9 @@
   .content h2::before {
     display: block;
   }
+  
+  .content img {
+    width: 80%;
+  }
+
 }
