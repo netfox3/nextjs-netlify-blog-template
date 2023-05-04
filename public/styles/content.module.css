@@ -95,6 +95,11 @@
 }
 
 
+.content table th,
+.content table td {
+  padding: 0.5em 0.5em;
+  border: 1px double #eee;
+
 .content ol,
 .content ul {
   padding: 0 0 0 1.5rem;
@@ -134,10 +139,4 @@
   .content h2::before {
     display: block;
   }
-  
-  .content img {
-    max-width: 100%;
-    max-height: 450px;
-  }
-
 }
