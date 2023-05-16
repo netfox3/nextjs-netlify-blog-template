@@ -24,12 +24,12 @@ export default function PostItem({ post }: Props) {
               font-size:1.1rem;
             }
             img {
-              min-height: 250px;
+              min-width: 100%;
             }
             @media (min-width: 769px) {
               img {
-                max-width: 40%;
-                max-height: 25%;
+                max-width: 80%;
+                max-height: 45%;
                 }
               }
           `}
