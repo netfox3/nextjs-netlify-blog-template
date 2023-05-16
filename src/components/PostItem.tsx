@@ -24,7 +24,6 @@ export default function PostItem({ post }: Props) {
               font-size:1.1rem;
             }
             img {
-              max-width: 100%;
               min-height: 250px;
             }
             @media (min-width: 769px) {
