@@ -49,3 +49,5 @@ tags:
     name: mdx
   - slug: markdown
     name: markdown
+  - slug: test
+    name: test
