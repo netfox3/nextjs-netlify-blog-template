@@ -19,7 +19,7 @@ export default function Index() {
           <h2>I'm a copywriter, ux writer, content designer, and growth hacker helping startups and entrepreneurs. 
             Take a look at my <Link href="/posts"><a>projects </a></Link>and
             <Link href="https://read.cv/ashs"><a> resume </a></Link>to learn more about working with me.</h2>
-          <h2><Link href="/contact"><a>Contact me &gt;&gt;</a></Link></h2>
+          <h2><Link href="mailto:ash460711@gmail.com?subject=hi%20ash!%20"><a>Contact me &gt;&gt;</a></Link></h2>
         </div>
       </div>
       <style jsx>{`
