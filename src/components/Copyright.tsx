@@ -1,7 +1,7 @@
 export default function Copyright() {
   return (
     <>
-      <p>&copy; 2023 ash | all right reserved</p>
+      <p>&copy; 2017-2024 ash | all right reserved</p>
       <style jsx>
         {`
           p {
