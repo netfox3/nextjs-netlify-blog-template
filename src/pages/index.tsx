@@ -17,9 +17,8 @@ export default function Index() {
             Hi, it's Ash<span className="fancy">.</span>
           </h1>
           <h2>I'm a copywriter, ux writer, content designer, and growth hacker helping startups and entrepreneurs. 
-            Take a look at my <Link href="/posts"><a>projects </a></Link>or
-            <Link href="/resume"><a> resume </a></Link>and<Link href="/reviews"><a> client testimonials </a></Link>
-            to learn more about working with me.</h2>
+            Take a look at my <Link href="/posts"><a>projects </a></Link>and
+            <Link href="https://read.cv/ashs"><a> resume </a></Link>to learn more about working with me.</h2>
           <h2><Link href="/contact"><a>Contact me &gt;&gt;</a></Link></h2>
         </div>
       </div>
