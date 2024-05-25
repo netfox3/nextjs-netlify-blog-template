@@ -28,7 +28,7 @@ export default function Navigation() {
             </Link>
           </li>
           <li>
-            <Link href="/resume">
+            <Link href="https://read.cv/ashs">
               <a
                 className={
                   router.pathname.startsWith("/resume") ? "active" : null
@@ -39,7 +39,7 @@ export default function Navigation() {
             </Link>
           </li>
           <li>
-            <Link href="/contact">
+            <Link href="mailto:ash460711@gmail.com">
               <a
                 className={
                   router.pathname.startsWith("/contact") ? "active" : null
