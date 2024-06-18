@@ -16,4 +16,7 @@ module.exports = ({
     );
     return config;
   },
+  env: {
+    NETLIFY_NEXT_PLUGIN_SKIP: 'true',
+  }
 });
